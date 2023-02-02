@@ -1,0 +1,12 @@
+import javax.swing.*;
+
+public class Formulario extends JFrame{
+  private JLabel label1;
+
+  public Formulario(){
+   setLayout(null);
+   label1 = new JLabel("Mi chetes bella");
+   label1.setBounds(10,20,200,300);
+   add(label1);
+  }
+}
